@@ -1,5 +1,5 @@
 def reverse_each_word(str)
-  newArr = str.scan //
+  newArr = str.scan
   # array = []
   newStr = ''
   newArr.collect do |item|
