@@ -6,5 +6,5 @@ def reverse_each_word(str)
     newStr = newStr + item.reverse
   end
 
-  return newArr
+  return newStr
 end
