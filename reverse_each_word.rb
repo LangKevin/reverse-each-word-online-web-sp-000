@@ -13,5 +13,5 @@ def reverse_each_word(str)
     newStr = str[idx] + newStr
     idx += 1
   end
-  return newStr.reverse 
+  return newStr 
 end
