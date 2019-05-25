@@ -8,6 +8,7 @@ def reverse_each_word(str)
     else
       newStr = newStr + item.reverse
     end
+    cnt =+ 1
   end
 
   return newStr
