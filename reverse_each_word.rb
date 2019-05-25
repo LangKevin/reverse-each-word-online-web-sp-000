@@ -1,9 +1,13 @@
 def reverse_each_word(str)
   newArr = str.split(" ")
   newStr = ''
-  cnt = 0
+  cnt = 1
   newArr.collect do |item|
-    newStr = newStr + item.reverse + " "
+    if cnt < newArr.Size - 1
+      newStr = newStr + item.reverse + " "
+    else
+      newStr = newStr + item.reverse  
+    end
   end
 
   return newStr
