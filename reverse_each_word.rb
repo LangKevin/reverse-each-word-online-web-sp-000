@@ -3,10 +3,10 @@ def reverse_each_word(str)
   newStr = ''
   cnt = 1
   newArr.collect do |item|
-    if cnt < newArr.Size - 1
+    if cnt < newArr.size - 1
       newStr = newStr + item.reverse + " "
     else
-      newStr = newStr + item.reverse  
+      newStr = newStr + item.reverse
     end
   end
 
